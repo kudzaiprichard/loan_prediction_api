@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd62ffe2-6b68-44eb-acb5-f2606ba49b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data Science Competion Question and Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data Science Competion Question and Data.iml" afterDir="false" />
+    <list default="true" id="dd115bd8-35ad-45a2-b70d-094ed1f6638c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/data/training_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.idea/models.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/base_model_rf.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/dataset/training_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/random_forest_model.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/location_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data Science Competion Question and Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/loan_prediction_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/Data Science Competition 2024.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/dataset/data_science_competition_2024.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/model_rf.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/probability_of_default.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/dataset/clean_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_rf.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/probability_of_default.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/probability_of_default.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -40,16 +49,18 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2iNXKiTeL2TQ98AXhrYBmu8Ome8" />
+  <component name="ProjectId" id="2ikIiX3ETFRGHgyifc15hTn4hYr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.predict.executor&quot;: &quot;Run&quot;,
     &quot;Python.train.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -60,6 +71,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -73,36 +85,26 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd62ffe2-6b68-44eb-acb5-f2606ba49b6c" name="Changes" comment="" />
-      <created>1719331948295</created>
+      <changelist id="dd115bd8-35ad-45a2-b70d-094ed1f6638c" name="Changes" comment="" />
+      <created>1720028277498</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1719331948295</updated>
-      <workItem from="1719331952355" duration="2604000" />
-      <workItem from="1719435919122" duration="1984000" />
-      <workItem from="1719861700411" duration="6109000" />
-      <workItem from="1720006261666" duration="43000" />
-      <workItem from="1720016742697" duration="185000" />
+      <updated>1720028277498</updated>
+      <workItem from="1720028282791" duration="975000" />
+      <workItem from="1720187331593" duration="815000" />
+      <workItem from="1720208079330" duration="2394000" />
+      <workItem from="1720263741538" duration="3753000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Data_Science_Competion_Question_and_Data$main.coverage" NAME="main Coverage Results" MODIFIED="1719870834839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/Data_Science_Competion_Question_and_Data$train.coverage" NAME="train Coverage Results" MODIFIED="1719862709819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/routes" />
-    <SUITE FILE_PATH="coverage/Data_Science_Competion_Question_and_Data$predict.coverage" NAME="predict Coverage Results" MODIFIED="1719869155919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/routes" />
+    <SUITE FILE_PATH="coverage/loan_prediction_api$train.coverage" NAME="train Coverage Results" MODIFIED="1720208710128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/routes" />
+    <SUITE FILE_PATH="coverage/loan_prediction_api$main.coverage" NAME="main Coverage Results" MODIFIED="1720266206585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
